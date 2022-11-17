@@ -22,4 +22,4 @@ var obj2 = {
 foo();          // undefined because of strict mode
 obj1.foo();     // obj1
 foo.call(obj2); // obj2
-new foo();
+new foo();      //calling
